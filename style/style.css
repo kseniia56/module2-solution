@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.contener {
+    width: 100%;
+    min-height: 30px;
+    font-size: 20px;
+    float: right;
+}
+
+.chiken, .beef, .sushi {
+    min-height: 140px;
+    max-height: 180px;
+    border: 1px solid black;
+    background: rgb(141, 140, 140);
+    margin: 1.5%;
+}
+
+.name-chicken {
+    font-size: 20px;
+    float: right;
+    background: #d17a7a;
+    border: 1px solid black;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.name-beef {
+    font-size: 20px;
+    float: right;
+    background: #ac4444;
+    color: white;
+    border: 1px solid black;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.name-sushi {
+    font-size: 20px;
+    float: right;
+    background: #dfc862;
+    border: 1px solid black;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.text {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    padding-top: 2%;
+}
+
+@media (min-width: 992px) {
+    .chiken, .beef, .sushi {
+    float: left;
+    }
+
+    .chiken {
+        width: 30%;
+    }
+
+    .beef {
+        width: 30%;
+    }
+
+    .sushi {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .chiken, .beef, .sushi {
+    float: left;
+    margin: 1%;
+    margin-left: 2.5%;
+    }
+
+    .chiken {
+        width: 45%;
+    }
+
+    .beef {
+        width: 45%;
+        margin-left: 2%;
+    }
+
+    .sushi {
+        width: 93%;
+    }
+}
+
+@media (max-width: 767px) {
+    .chiken, .beef, .sushi {
+    float: left;
+    }
+
+    .chiken {
+        width: 95%;
+    }
+
+    .beef {
+        width: 95%;
+    }
+
+    .sushi {
+        width: 95%;
+    }
+}
